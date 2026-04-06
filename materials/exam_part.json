@@ -8,7 +8,7 @@
       "C": "$\\frac{k}{\\sqrt{1-k^2}}$.",
       "D": "$\\frac{\\sqrt{1-k^2}}{k}$."
     },
-    "answer": "A",
+    "answer": "D",
     "graph": null
   },
   {
@@ -32,7 +32,7 @@
       "C": "$1 + \\frac{1}{1-x}$",
       "D": "$1 + \\frac{1}{1+x}$"
     },
-    "answer": "B",
+    "answer": "A",
     "graph": null
   },
   {
@@ -44,15 +44,15 @@
       "C": "$42 \\text{ cm}$.",
       "D": "$58 \\text{ cm}$."
     },
-    "answer": "A",
+    "answer": "D",
     "graph": {
       "points": {
-        "P": [0, 2],
+        "P": [0, 10],
         "Q": [0, 0],
-        "R": [2, 0],
-        "S": [2, 2],
-        "T": [2.1, 0],
-        "U": [2, 0.095238]
+        "R": [10, 0],
+        "S": [10, 10],
+        "T": [14, 0],
+        "U": [10, 2.85714]
       },
       "lines": [
         {"points": ["P", "Q"], "style": "solid"},
@@ -72,12 +72,12 @@
         {"point": "U", "text": "U", "position": "NE"}
       ],
       "right_angles": [
-        {"p1": "P", "p2": "Q", "p3": "R", "size": 0.15},
-        {"p1": "Q", "p2": "R", "p3": "S", "size": 0.15}
+        {"p1": "P", "p2": "Q", "p3": "R", "size": 0.5},
+        {"p1": "Q", "p2": "R", "p3": "S", "size": 0.5}
       ],
       "annotations": [
-        {"p1": "R", "p2": "T", "text": "2.1", "position": "S", "offset": 0.1},
-        {"p1": "U", "p2": "T", "text": "2.9", "position": "NE", "offset": 0.1}
+        {"p1": "R", "p2": "T", "text": "2.1", "position": "S", "offset": 0.5},
+        {"p1": "U", "p2": "T", "text": "2.9", "position": "NE", "offset": 0.5}
       ],
       "output_path": "graph_34.svg"
     }

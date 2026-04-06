@@ -1,10 +1,10 @@
 size(200);
-pair P = (0, 2);
+pair P = (0, 10);
 pair Q = (0, 0);
-pair R = (2, 0);
-pair S = (2, 2);
-pair T = (2.1, 0);
-pair U = (2, 0.095238);
+pair R = (10, 0);
+pair S = (10, 10);
+pair T = (14, 0);
+pair U = (10, 2.85714);
 draw(P--Q);
 draw(Q--R);
 draw(R--S);
@@ -21,16 +21,16 @@ label("$U$", U, NE);
 // Right angle at Q
 pair vec1 = unit(P - Q);
 pair vec2 = unit(R - Q);
-pair pt1 = Q + 0.15*vec1;
-pair pt2 = Q + 0.15*vec2;
-pair corner = Q + 0.15*vec1 + 0.15*vec2;
+pair pt1 = Q + 0.5*vec1;
+pair pt2 = Q + 0.5*vec2;
+pair corner = Q + 0.5*vec1 + 0.5*vec2;
 draw(pt1--corner--pt2);
 // Right angle at R
 pair vec1 = unit(Q - R);
 pair vec2 = unit(S - R);
-pair pt1 = R + 0.15*vec1;
-pair pt2 = R + 0.15*vec2;
-pair corner = R + 0.15*vec1 + 0.15*vec2;
+pair pt1 = R + 0.5*vec1;
+pair pt2 = R + 0.5*vec2;
+pair corner = R + 0.5*vec1 + 0.5*vec2;
 draw(pt1--corner--pt2);
 pair mid_R_T = (R + T) / 2.0;
 label("2.1", mid_R_T, S);
