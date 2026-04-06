@@ -1,43 +1,38 @@
 size(200);
-
-// Draw the square PQRS
-pair P = (0, 1);
+pair P = (0, 2);
 pair Q = (0, 0);
-pair R = (1, 0);
-pair S = (1, 1);
-
-draw(P--Q--R--S--cycle);
-
-// Point T is on line QR extended
-pair T = (1.5, 0);
+pair R = (2, 0);
+pair S = (2, 2);
+pair T = (2.1, 0);
+pair U = (2, 0.095238);
+draw(P--Q);
+draw(Q--R);
+draw(R--S);
+draw(S--P);
 draw(R--T);
-
-// Point U is on line RS
-pair U = (1, 0.2); // Just an approximation based on the drawing
-draw(S--U);
-
-// Draw diagonal PR
+draw(P--T);
 draw(P--R);
-
-// Draw lines PUT and QRT (QRT is just Q--R--T which is already drawn)
-draw(P--U--T);
-
-// Add labels
 label("$P$", P, NW);
 label("$Q$", Q, SW);
-label("$R$", R, SE);
+label("$R$", R, S);
 label("$S$", S, NE);
 label("$T$", T, E);
 label("$U$", U, NE);
-
-// Mark right angles for square corners (only Q and R are marked in the image)
-import markers;
-markangle(radius=10, P, Q, R);
-markangle(radius=10, Q, R, S); // Actually marked inside the square at R
-markangle(radius=10, R, S, P);
-
-// Note lengths (optional, based on image annotations)
-// RT = 2.1 cm
-// TU = 2.9 cm
-label("2.1", (R+T)/2, S);
-label("2.9", (U+T)/2, NE);
+// Right angle at Q
+pair vec1 = unit(P - Q);
+pair vec2 = unit(R - Q);
+pair pt1 = Q + 0.15*vec1;
+pair pt2 = Q + 0.15*vec2;
+pair corner = Q + 0.15*vec1 + 0.15*vec2;
+draw(pt1--corner--pt2);
+// Right angle at R
+pair vec1 = unit(Q - R);
+pair vec2 = unit(S - R);
+pair pt1 = R + 0.15*vec1;
+pair pt2 = R + 0.15*vec2;
+pair corner = R + 0.15*vec1 + 0.15*vec2;
+draw(pt1--corner--pt2);
+pair mid_R_T = (R + T) / 2.0;
+label("2.1", mid_R_T, S);
+pair mid_U_T = (U + T) / 2.0;
+label("2.9", mid_U_T, NE);

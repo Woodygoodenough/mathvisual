@@ -14,9 +14,9 @@ def json_to_markdown(json_path, output_md_path):
     for q in questions:
         md_content += f"### {q['id']}. {q['text']}\n\n"
 
-        if q.get('has_graph') and q.get('graph_image_path'):
+        if q.get('graph') and q['graph'].get('output_path'):
             # Provide the path relative to the markdown file
-            md_content += f"![Graph for Question {q['id']}]({q['graph_image_path']})\n\n"
+            md_content += f"![Graph for Question {q['id']}]({q['graph']['output_path']})\n\n"
 
         if 'choices' in q and q['choices']:
             for key, val in q['choices'].items():
