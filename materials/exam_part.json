@@ -1,0 +1,58 @@
+[
+  {
+    "id": "31",
+    "text": "If $\\cos \\theta = k$ and $\\theta$ is an acute angle, then $\\tan \\theta =$ ",
+    "choices": {
+      "A": "$\\frac{1}{\\sqrt{1-k^2}}$.",
+      "B": "$\\sqrt{1-k^2}$.",
+      "C": "$\\frac{k}{\\sqrt{1-k^2}}$.",
+      "D": "$\\frac{\\sqrt{1-k^2}}{k}$."
+    },
+    "answer": "A",
+    "has_graph": false,
+    "graph_asy_code": null,
+    "graph_image_path": null
+  },
+  {
+    "id": "32",
+    "text": "If $\\frac{1}{x} = \\frac{2}{y} = \\frac{3}{z}$, then $x : y : z =$",
+    "choices": {
+      "A": "$3 : 2 : 1$.",
+      "B": "$1 : 2 : 3$.",
+      "C": "$12 : 6 : 1$.",
+      "D": "$1 : 6 : 12$."
+    },
+    "answer": "B",
+    "has_graph": false,
+    "graph_asy_code": null,
+    "graph_image_path": null
+  },
+  {
+    "id": "33",
+    "text": "If $x = 1 - \\frac{1}{1-y}$, then $y =$",
+    "choices": {
+      "A": "$1 - \\frac{1}{1-x}$",
+      "B": "$1 - \\frac{1}{1+x}$",
+      "C": "$1 + \\frac{1}{1-x}$",
+      "D": "$1 + \\frac{1}{1+x}$"
+    },
+    "answer": "B",
+    "has_graph": false,
+    "graph_asy_code": null,
+    "graph_image_path": null
+  },
+  {
+    "id": "34",
+    "text": "In the figure, $PQRS$ is a square. $PUT$ and $QRT$ are straight lines.\n\nIf $RT = 2.1 \\text{ cm}$ and $TU = 2.9 \\text{ cm}$, then $PU =$",
+    "choices": {
+      "A": "$38 \\text{ cm}$.",
+      "B": "$40 \\text{ cm}$.",
+      "C": "$42 \\text{ cm}$.",
+      "D": "$58 \\text{ cm}$."
+    },
+    "answer": "A",
+    "has_graph": true,
+    "graph_asy_code": "size(200);\n\n// Draw the square PQRS\npair P = (0, 1);\npair Q = (0, 0);\npair R = (1, 0);\npair S = (1, 1);\n\ndraw(P--Q--R--S--cycle);\n\n// Point T is on line QR extended\npair T = (1.5, 0);\ndraw(R--T);\n\n// Point U is on line RS\npair U = (1, 0.2); // Just an approximation based on the drawing\ndraw(S--U);\n\n// Draw diagonal PR\ndraw(P--R);\n\n// Draw lines PUT and QRT (QRT is just Q--R--T which is already drawn)\ndraw(P--U--T);\n\n// Add labels\nlabel(\"$P$\", P, NW);\nlabel(\"$Q$\", Q, SW);\nlabel(\"$R$\", R, SE);\nlabel(\"$S$\", S, NE);\nlabel(\"$T$\", T, E);\nlabel(\"$U$\", U, NE);\n\n// Mark right angles for square corners (only Q and R are marked in the image)\nimport markers;\nmarkangle(radius=10, P, Q, R);\nmarkangle(radius=10, Q, R, S); // Actually marked inside the square at R\nmarkangle(radius=10, R, S, P);\n\n// Note lengths (optional, based on image annotations)\n// RT = 2.1 cm\n// TU = 2.9 cm\nlabel(\"2.1\", (R+T)/2, S);\nlabel(\"2.9\", (U+T)/2, NE);\n",
+    "graph_image_path": "graph_34.svg"
+  }
+]
