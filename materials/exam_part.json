@@ -9,9 +9,7 @@
       "D": "$\\frac{\\sqrt{1-k^2}}{k}$."
     },
     "answer": "A",
-    "has_graph": false,
-    "graph_asy_code": null,
-    "graph_image_path": null
+    "graph": null
   },
   {
     "id": "32",
@@ -23,9 +21,7 @@
       "D": "$1 : 6 : 12$."
     },
     "answer": "B",
-    "has_graph": false,
-    "graph_asy_code": null,
-    "graph_image_path": null
+    "graph": null
   },
   {
     "id": "33",
@@ -37,9 +33,7 @@
       "D": "$1 + \\frac{1}{1+x}$"
     },
     "answer": "B",
-    "has_graph": false,
-    "graph_asy_code": null,
-    "graph_image_path": null
+    "graph": null
   },
   {
     "id": "34",
@@ -51,8 +45,41 @@
       "D": "$58 \\text{ cm}$."
     },
     "answer": "A",
-    "has_graph": true,
-    "graph_asy_code": "size(200);\n\n// Draw the square PQRS\npair P = (0, 1);\npair Q = (0, 0);\npair R = (1, 0);\npair S = (1, 1);\n\ndraw(P--Q--R--S--cycle);\n\n// Point T is on line QR extended\npair T = (1.5, 0);\ndraw(R--T);\n\n// Point U is on line RS\npair U = (1, 0.2); // Just an approximation based on the drawing\ndraw(S--U);\n\n// Draw diagonal PR\ndraw(P--R);\n\n// Draw lines PUT and QRT (QRT is just Q--R--T which is already drawn)\ndraw(P--U--T);\n\n// Add labels\nlabel(\"$P$\", P, NW);\nlabel(\"$Q$\", Q, SW);\nlabel(\"$R$\", R, SE);\nlabel(\"$S$\", S, NE);\nlabel(\"$T$\", T, E);\nlabel(\"$U$\", U, NE);\n\n// Mark right angles for square corners (only Q and R are marked in the image)\nimport markers;\nmarkangle(radius=10, P, Q, R);\nmarkangle(radius=10, Q, R, S); // Actually marked inside the square at R\nmarkangle(radius=10, R, S, P);\n\n// Note lengths (optional, based on image annotations)\n// RT = 2.1 cm\n// TU = 2.9 cm\nlabel(\"2.1\", (R+T)/2, S);\nlabel(\"2.9\", (U+T)/2, NE);\n",
-    "graph_image_path": "graph_34.svg"
+    "graph": {
+      "points": {
+        "P": [0, 2],
+        "Q": [0, 0],
+        "R": [2, 0],
+        "S": [2, 2],
+        "T": [2.1, 0],
+        "U": [2, 0.095238]
+      },
+      "lines": [
+        {"points": ["P", "Q"], "style": "solid"},
+        {"points": ["Q", "R"], "style": "solid"},
+        {"points": ["R", "S"], "style": "solid"},
+        {"points": ["S", "P"], "style": "solid"},
+        {"points": ["R", "T"], "style": "solid"},
+        {"points": ["P", "T"], "style": "solid"},
+        {"points": ["P", "R"], "style": "solid"}
+      ],
+      "labels": [
+        {"point": "P", "text": "P", "position": "NW"},
+        {"point": "Q", "text": "Q", "position": "SW"},
+        {"point": "R", "text": "R", "position": "S"},
+        {"point": "S", "text": "S", "position": "NE"},
+        {"point": "T", "text": "T", "position": "E"},
+        {"point": "U", "text": "U", "position": "NE"}
+      ],
+      "right_angles": [
+        {"p1": "P", "p2": "Q", "p3": "R", "size": 0.15},
+        {"p1": "Q", "p2": "R", "p3": "S", "size": 0.15}
+      ],
+      "annotations": [
+        {"p1": "R", "p2": "T", "text": "2.1", "position": "S", "offset": 0.1},
+        {"p1": "U", "p2": "T", "text": "2.9", "position": "NE", "offset": 0.1}
+      ],
+      "output_path": "graph_34.svg"
+    }
   }
 ]
