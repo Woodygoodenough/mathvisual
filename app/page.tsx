@@ -1,6 +1,6 @@
 import React from 'react';
 import MathGraph from '../components/MathGraph';
-import examData from '../../materials/exam_part.json';
+import examData from '../materials/exam_part.json';
 import 'katex/dist/katex.min.css';
 import { InlineMath } from 'react-katex';
 
