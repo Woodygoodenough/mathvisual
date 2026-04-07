@@ -47,12 +47,12 @@
     "answer": "D",
     "graph": {
       "points": {
-        "P": [0, 10],
+        "P": [0, 42],
         "Q": [0, 0],
-        "R": [10, 0],
-        "S": [10, 10],
-        "T": [14, 0],
-        "U": [10, 2.85714]
+        "R": [42, 0],
+        "S": [42, 42],
+        "T": [44.1, 0],
+        "U": [42, 2]
       },
       "lines": [
         {"points": ["P", "Q"], "style": "solid"},
@@ -60,24 +60,23 @@
         {"points": ["R", "S"], "style": "solid"},
         {"points": ["S", "P"], "style": "solid"},
         {"points": ["R", "T"], "style": "solid"},
-        {"points": ["P", "T"], "style": "solid"},
-        {"points": ["P", "R"], "style": "solid"}
+        {"points": ["P", "T"], "style": "solid"}
       ],
       "labels": [
         {"point": "P", "text": "P", "position": "NW"},
         {"point": "Q", "text": "Q", "position": "SW"},
-        {"point": "R", "text": "R", "position": "S"},
+        {"point": "R", "text": "R", "position": "SW"},
         {"point": "S", "text": "S", "position": "NE"},
         {"point": "T", "text": "T", "position": "E"},
         {"point": "U", "text": "U", "position": "NE"}
       ],
       "right_angles": [
-        {"p1": "P", "p2": "Q", "p3": "R", "size": 0.5},
-        {"p1": "Q", "p2": "R", "p3": "S", "size": 0.5}
+        {"p1": "P", "p2": "Q", "p3": "R", "size": 1.0},
+        {"p1": "Q", "p2": "R", "p3": "S", "size": 1.0}
       ],
       "annotations": [
-        {"p1": "R", "p2": "T", "text": "2.1", "position": "S", "offset": 0.5},
-        {"p1": "U", "p2": "T", "text": "2.9", "position": "NE", "offset": 0.5}
+        {"p1": "R", "p2": "T", "text": "2.1", "position": "S"},
+        {"p1": "U", "p2": "T", "text": "2.9", "position": "NE"}
       ],
       "output_path": "graph_34.svg"
     }
