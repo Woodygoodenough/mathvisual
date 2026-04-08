@@ -1,14 +1,32 @@
 import React from 'react';
-import Link from 'next/link';
+import MathGraphSVG from '../components/MathGraphSVG';
+import examData from '../materials/exam_part.json';
 
 export default function Page() {
+  const complexQs = [26, 29, 30, 34, 35];
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gray-50 text-gray-900">
-        <h1 className="text-4xl font-bold mb-8">Select Renderer</h1>
-        <div className="flex gap-4">
-            <Link href="/svg" className="px-6 py-3 bg-blue-600 text-white rounded shadow hover:bg-blue-700">View SVG Renderer</Link>
-            <Link href="/canvas" className="px-6 py-3 bg-green-600 text-white rounded shadow hover:bg-green-700">View Canvas Renderer</Link>
-        </div>
+    <main className="flex min-h-screen flex-col items-center justify-between p-12 bg-gray-50 text-gray-900 font-serif">
+      <div className="z-10 max-w-4xl w-full items-center justify-between font-mono text-sm lg:flex flex-col gap-12">
+        <h1 className="text-4xl font-bold mb-8">Simplified Graph Viewer</h1>
+
+        {examData.filter(q => complexQs.includes(q.id)).map((question) => (
+          <div key={question.id} className="bg-white p-8 rounded-xl shadow-md w-full mb-8">
+            <div className="flex gap-4 mb-6">
+              <span className="font-bold text-xl">{question.id}.</span>
+              <p className="text-lg leading-relaxed whitespace-pre-wrap">
+                {question.text}
+              </p>
+            </div>
+
+            {question.graph && (
+              <div className="flex justify-center w-full mb-8">
+                <MathGraphSVG data={question.graph} />
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
     </main>
   );
 }
