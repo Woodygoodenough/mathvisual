@@ -1,84 +1,2357 @@
 [
-  {
-    "id": "31",
-    "text": "If $\\cos \\theta = k$ and $\\theta$ is an acute angle, then $\\tan \\theta =$ ",
-    "choices": {
-      "A": "$\\frac{1}{\\sqrt{1-k^2}}$.",
-      "B": "$\\sqrt{1-k^2}$.",
-      "C": "$\\frac{k}{\\sqrt{1-k^2}}$.",
-      "D": "$\\frac{\\sqrt{1-k^2}}{k}$."
+    {
+        "id": 1,
+        "text": "The weight of a cake is measured to be $1.6 \\text{ kg}$. If the percentage error of the measured weight is $12.5\\%$, the scale interval of the measuring tool is",
+        "choices": {
+            "A": "$0.1 \\text{ kg}$.",
+            "B": "$0.2 \\text{ kg}$.",
+            "C": "$0.4 \\text{ kg}$.",
+            "D": "$0.8 \\text{ kg}$."
+        },
+        "answer": "C",
+        "graph": null
     },
-    "answer": "D",
-    "graph": null
-  },
-  {
-    "id": "32",
-    "text": "If $\\frac{1}{x} = \\frac{2}{y} = \\frac{3}{z}$, then $x : y : z =$",
-    "choices": {
-      "A": "$3 : 2 : 1$.",
-      "B": "$1 : 2 : 3$.",
-      "C": "$12 : 6 : 1$.",
-      "D": "$1 : 6 : 12$."
+    {
+        "id": 2,
+        "text": "How many significant figures does $0.004\\;30$ have?",
+        "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+        },
+        "answer": "A",
+        "graph": null
     },
-    "answer": "B",
-    "graph": null
-  },
-  {
-    "id": "33",
-    "text": "If $x = 1 - \\frac{1}{1-y}$, then $y =$",
-    "choices": {
-      "A": "$1 - \\frac{1}{1-x}$",
-      "B": "$1 - \\frac{1}{1+x}$",
-      "C": "$1 + \\frac{1}{1-x}$",
-      "D": "$1 + \\frac{1}{1+x}$"
+    {
+        "id": 3,
+        "text": "$(3r + 2s)^2 - (3r - 2s)(3r + 2s) =$",
+        "choices": {
+            "A": "$12rs$.",
+            "B": "$24rs$.",
+            "C": "$12rs + 8s^2$.",
+            "D": "$24rs + 8s^2$."
+        },
+        "answer": "C",
+        "graph": null
     },
-    "answer": "A",
-    "graph": null
-  },
-  {
-    "id": "34",
-    "text": "In the figure, $PQRS$ is a square. $PUT$ and $QRT$ are straight lines.\n\nIf $RT = 2.1 \\text{ cm}$ and $TU = 2.9 \\text{ cm}$, then $PU =$",
-    "choices": {
-      "A": "$38 \\text{ cm}$.",
-      "B": "$40 \\text{ cm}$.",
-      "C": "$42 \\text{ cm}$.",
-      "D": "$58 \\text{ cm}$."
+    {
+        "id": 4,
+        "text": "$\\frac{2x^2 - 2xy}{3y^2 - 3xy} =$",
+        "choices": {
+            "A": "$\\frac{2x^2}{3y^2}$.",
+            "B": "$\\frac{x^2 - 1}{y^2 - 1}$.",
+            "C": "$\\frac{2x}{3y}$.",
+            "D": "$-\\frac{2x}{3y}$."
+        },
+        "answer": "D",
+        "graph": null
     },
-    "answer": "D",
-    "graph": {
-      "points": {
-        "P": [0, 42],
-        "Q": [0, 0],
-        "R": [42, 0],
-        "S": [42, 42],
-        "T": [44.1, 0],
-        "U": [42, 2]
-      },
-      "lines": [
-        {"points": ["P", "Q"], "style": "solid"},
-        {"points": ["Q", "R"], "style": "solid"},
-        {"points": ["R", "S"], "style": "solid"},
-        {"points": ["S", "P"], "style": "solid"},
-        {"points": ["R", "T"], "style": "solid"},
-        {"points": ["P", "T"], "style": "solid"}
-      ],
-      "labels": [
-        {"point": "P", "text": "P", "position": "NW"},
-        {"point": "Q", "text": "Q", "position": "SW"},
-        {"point": "R", "text": "R", "position": "SW"},
-        {"point": "S", "text": "S", "position": "NE"},
-        {"point": "T", "text": "T", "position": "E"},
-        {"point": "U", "text": "U", "position": "NE"}
-      ],
-      "right_angles": [
-        {"p1": "P", "p2": "Q", "p3": "R", "size": 1.0},
-        {"p1": "Q", "p2": "R", "p3": "S", "size": 1.0}
-      ],
-      "annotations": [
-        {"p1": "R", "p2": "T", "text": "2.1", "position": "S"},
-        {"p1": "U", "p2": "T", "text": "2.9", "position": "NE"}
-      ],
-      "output_path": "graph_34.svg"
+    {
+        "id": 5,
+        "text": "It is given that $y = \\frac{a + 3b}{b - a}$. If $y = 2$ and $a = -5$, then $b =$",
+        "choices": {
+            "A": "-5.",
+            "B": "5.",
+            "C": "10.",
+            "D": "15."
+        },
+        "answer": "D",
+        "graph": null
+    },
+    {
+        "id": 6,
+        "text": "$\\frac{2}{x} - \\frac{3}{x - 2} =$",
+        "choices": {
+            "A": "$-\\frac{1}{x}$.",
+            "B": "$\\frac{x + 2}{x(x - 2)}$.",
+            "C": "$\\frac{x + 4}{x(2 - x)}$.",
+            "D": "$\\frac{x - 4}{x(2 - x)}$."
+        },
+        "answer": "C",
+        "graph": null
+    },
+    {
+        "id": 7,
+        "text": "$\\frac{a^2 - b^2}{ab - 1 + a - b} \\div \\frac{a - b}{a - 1} =$",
+        "choices": {
+            "A": "$\\frac{a + b}{a + 1}$.",
+            "B": "$\\frac{a + b}{b + 1}$.",
+            "C": "$\\frac{a - b}{a + 1}$.",
+            "D": "$\\frac{a - b}{b + 1}$."
+        },
+        "answer": "B",
+        "graph": null
+    },
+    {
+        "id": 8,
+        "text": "If $n = \\frac{m + 3}{m + 1} - 3$, then $m =$",
+        "choices": {
+            "A": "$-\\frac{n}{n + 2}$.",
+            "B": "$\\frac{6 - n}{3 + n}$.",
+            "C": "$\\frac{1 - n}{3 + n}$.",
+            "D": "$-\\frac{n - 1}{n + 2}$."
+        },
+        "answer": "A",
+        "graph": null
+    },
+    {
+        "id": 9,
+        "text": "If $(x + y) : (3x + y) = 3 : 4$, then $x : y =$",
+        "choices": {
+            "A": "$5 : 1$.",
+            "B": "$1 : 5$.",
+            "C": "$2 : 7$.",
+            "D": "$7 : 2$."
+        },
+        "answer": "B",
+        "graph": null
+    },
+    {
+        "id": 10,
+        "text": "In the figure, the congruence of $\\triangle ABC$ and $\\triangle DEC$ can be expressed by both $\\triangle ABC \\cong \\triangle ADEC$ and $\\triangle ABC \\cong \\triangle ADCE$. Which of the following must be correct?\nI. $\\angle ABC = \\angle ACB$\nII. $DC = DE$\nIII. $BCD$ is a straight line.",
+        "choices": {
+            "A": "I only",
+            "B": "II only",
+            "C": "III only",
+            "D": "I and II only"
+        },
+        "answer": "D",
+        "graph": {
+            "type": "geometry",
+            "elements": [
+                {
+                    "type": "polygon",
+                    "points": [
+                        [
+                            50,
+                            0
+                        ],
+                        [
+                            0,
+                            80
+                        ],
+                        [
+                            100,
+                            80
+                        ]
+                    ],
+                    "fill": "none",
+                    "stroke": "black"
+                },
+                {
+                    "type": "polygon",
+                    "points": [
+                        [
+                            100,
+                            80
+                        ],
+                        [
+                            200,
+                            80
+                        ],
+                        [
+                            150,
+                            160
+                        ]
+                    ],
+                    "fill": "none",
+                    "stroke": "black"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        50,
+                        -15
+                    ],
+                    "text": "$A$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        -15,
+                        80
+                    ],
+                    "text": "$B$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        100,
+                        100
+                    ],
+                    "text": "$C$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        215,
+                        80
+                    ],
+                    "text": "$D$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        150,
+                        175
+                    ],
+                    "text": "$E$"
+                },
+                {
+                    "type": "tick",
+                    "point": [
+                        25,
+                        40
+                    ],
+                    "angle": 30,
+                    "style": "double"
+                },
+                {
+                    "type": "tick",
+                    "point": [
+                        125,
+                        120
+                    ],
+                    "angle": 30,
+                    "style": "double"
+                },
+                {
+                    "type": "tick",
+                    "point": [
+                        75,
+                        40
+                    ],
+                    "angle": -30,
+                    "style": "single"
+                },
+                {
+                    "type": "tick",
+                    "point": [
+                        175,
+                        120
+                    ],
+                    "angle": -30,
+                    "style": "single"
+                },
+                {
+                    "type": "tick",
+                    "point": [
+                        50,
+                        80
+                    ],
+                    "angle": 90,
+                    "style": "single_cross"
+                },
+                {
+                    "type": "tick",
+                    "point": [
+                        150,
+                        80
+                    ],
+                    "angle": 90,
+                    "style": "single_cross"
+                }
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "text": "It is given that 1 Euro can be exchanged for 10.8 Hong Kong dollars and 1 US dollar can be exchanged for 7.78 Hong Kong dollars. Thus 1 Euro can be exchanged for",
+        "choices": {
+            "A": "0.72 US dollars (cor. to 2 d.p.).",
+            "B": "1.39 US dollars (cor. to 2 d.p.).",
+            "C": "5.60 US dollars (cor. to 2 d.p.).",
+            "D": "84.02 US dollars (cor. to 2 d.p.)."
+        },
+        "answer": "B",
+        "graph": null
+    },
+    {
+        "id": 12,
+        "text": "If $\\triangle ABC \\sim \\triangle QPR$, where $AB = 7 \\text{ cm}$, $BC = 6 \\text{ cm}$, $CA = 4 \\text{ cm}$ and $PR = 3 \\text{ cm}$, then $QR =$",
+        "choices": {
+            "A": "$2 \\text{ cm}$.",
+            "B": "$3 \\text{ cm}$.",
+            "C": "$3.5 \\text{ cm}$.",
+            "D": "$4 \\text{ cm}$."
+        },
+        "answer": "D",
+        "graph": null
+    },
+    {
+        "id": 13,
+        "text": "Which of the following triangles must be similar to $\\triangle ABC$ as shown above?",
+        "choices": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D"
+        },
+        "answer": "D",
+        "graph": {
+            "type": "geometry",
+            "elements": [
+                {
+                    "type": "polygon",
+                    "points": [
+                        [
+                            50,
+                            50
+                        ],
+                        [
+                            100,
+                            0
+                        ],
+                        [
+                            150,
+                            50
+                        ]
+                    ],
+                    "fill": "none",
+                    "stroke": "black"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        35,
+                        50
+                    ],
+                    "text": "$A$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        160,
+                        50
+                    ],
+                    "text": "$B$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        100,
+                        -10
+                    ],
+                    "text": "$C$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        75,
+                        20
+                    ],
+                    "text": "$2$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        100,
+                        60
+                    ],
+                    "text": "$3$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        65,
+                        45
+                    ],
+                    "text": "$30^\\circ$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        0,
+                        100
+                    ],
+                    "text": "A."
+                },
+                {
+                    "type": "polygon",
+                    "points": [
+                        [
+                            20,
+                            150
+                        ],
+                        [
+                            70,
+                            100
+                        ],
+                        [
+                            120,
+                            150
+                        ]
+                    ],
+                    "fill": "none",
+                    "stroke": "black"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        35,
+                        145
+                    ],
+                    "text": "$30^\\circ$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        70,
+                        165
+                    ],
+                    "text": "$5$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        100,
+                        120
+                    ],
+                    "text": "$4$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        150,
+                        100
+                    ],
+                    "text": "B."
+                },
+                {
+                    "type": "polygon",
+                    "points": [
+                        [
+                            170,
+                            150
+                        ],
+                        [
+                            220,
+                            100
+                        ],
+                        [
+                            270,
+                            150
+                        ]
+                    ],
+                    "fill": "none",
+                    "stroke": "black"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        255,
+                        145
+                    ],
+                    "text": "$30^\\circ$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        220,
+                        165
+                    ],
+                    "text": "$6$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        190,
+                        120
+                    ],
+                    "text": "$4$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        0,
+                        200
+                    ],
+                    "text": "C."
+                },
+                {
+                    "type": "polygon",
+                    "points": [
+                        [
+                            20,
+                            250
+                        ],
+                        [
+                            70,
+                            200
+                        ],
+                        [
+                            120,
+                            250
+                        ]
+                    ],
+                    "fill": "none",
+                    "stroke": "black"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        35,
+                        245
+                    ],
+                    "text": "$30^\\circ$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        40,
+                        220
+                    ],
+                    "text": "$4$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        100,
+                        220
+                    ],
+                    "text": "$6$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        150,
+                        200
+                    ],
+                    "text": "D."
+                },
+                {
+                    "type": "polygon",
+                    "points": [
+                        [
+                            170,
+                            250
+                        ],
+                        [
+                            220,
+                            200
+                        ],
+                        [
+                            270,
+                            250
+                        ]
+                    ],
+                    "fill": "none",
+                    "stroke": "black"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        255,
+                        245
+                    ],
+                    "text": "$30^\\circ$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        220,
+                        265
+                    ],
+                    "text": "$6$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        250,
+                        220
+                    ],
+                    "text": "$4$"
+                }
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "text": "In the figure, $BCD$ is a straight line and $\\angle BAC = \\angle ADC$. Which of the following must be correct?",
+        "choices": {
+            "A": "$\\triangle ABC \\sim \\triangle ACD$",
+            "B": "$\\triangle ACD \\sim \\triangle ABD$",
+            "C": "$\\triangle ABC \\sim \\triangle DBA$",
+            "D": "$\\triangle ACD \\sim \\triangle CBA$"
+        },
+        "answer": "C",
+        "graph": {
+            "type": "geometry",
+            "elements": [
+                {
+                    "type": "polygon",
+                    "points": [
+                        [
+                            100,
+                            0
+                        ],
+                        [
+                            0,
+                            100
+                        ],
+                        [
+                            250,
+                            100
+                        ]
+                    ],
+                    "fill": "none",
+                    "stroke": "black"
+                },
+                {
+                    "type": "line",
+                    "point1": [
+                        100,
+                        0
+                    ],
+                    "point2": [
+                        80,
+                        100
+                    ]
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        100,
+                        -15
+                    ],
+                    "text": "$A$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        -15,
+                        105
+                    ],
+                    "text": "$B$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        80,
+                        115
+                    ],
+                    "text": "$C$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        265,
+                        105
+                    ],
+                    "text": "$D$"
+                }
+            ]
+        }
+    },
+    {
+        "id": 15,
+        "text": "Which of the following points lies on the graph of $3x - 2y + 5 = 0$?",
+        "choices": {
+            "A": "$(-3, 4)$",
+            "B": "$(-1, 2)$",
+            "C": "$(1, 5)$",
+            "D": "$(5, 10)$"
+        },
+        "answer": "D",
+        "graph": null
+    },
+    {
+        "id": 16,
+        "text": "If $\\begin{cases} 4x - 5y = 22 \\\\ 3x + y = 26 \\end{cases}$, then $x + y =$",
+        "choices": {
+            "A": "10.",
+            "B": "6.",
+            "C": "-6.",
+            "D": "-10."
+        },
+        "answer": "A",
+        "graph": null
+    },
+    {
+        "id": 17,
+        "text": "The figure shows the graph of the equation $4y - 3x - 50 = 0$. $P$ is a point lying on the graph. Find the $x$-coordinate of $P$.",
+        "choices": {
+            "A": "$-16$",
+            "B": "$-12$",
+            "C": "$-8$",
+            "D": "$-6$"
+        },
+        "answer": "D",
+        "graph": {
+            "elements": [
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            -20,
+                            0
+                        ],
+                        [
+                            10,
+                            0
+                        ]
+                    ],
+                    "arrows": "end"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            0,
+                            -5
+                        ],
+                        [
+                            0,
+                            20
+                        ]
+                    ],
+                    "arrows": "end"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        9,
+                        -2
+                    ],
+                    "text": "$x$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        -2,
+                        19
+                    ],
+                    "text": "$y$"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            -20,
+                            -2.5
+                        ],
+                        [
+                            10,
+                            20
+                        ]
+                    ],
+                    "arrows": "both"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        -6,
+                        17
+                    ],
+                    "text": "$4y - 3x - 50 = 0$"
+                },
+                {
+                    "type": "point",
+                    "point": [
+                        -6,
+                        8
+                    ],
+                    "label": "$P$",
+                    "labelPosition": "top-left"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            -6,
+                            8
+                        ],
+                        [
+                            5,
+                            8
+                        ]
+                    ],
+                    "style": "dashed"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            5,
+                            8
+                        ],
+                        [
+                            5,
+                            0
+                        ]
+                    ],
+                    "style": "dashed"
+                },
+                {
+                    "type": "right_angle",
+                    "point": [
+                        5,
+                        0
+                    ],
+                    "line1": [
+                        [
+                            5,
+                            0
+                        ],
+                        [
+                            5,
+                            8
+                        ]
+                    ],
+                    "line2": [
+                        [
+                            5,
+                            0
+                        ],
+                        [
+                            0,
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        6.5,
+                        4
+                    ],
+                    "text": "$8$"
+                }
+            ]
+        }
+    },
+    {
+        "id": 18,
+        "text": "In a class, there are $39$ students and the number of boys is $15$ more than that of girls. What is the ratio of the number of boys to that of girls in this class?",
+        "choices": {
+            "A": "$9 : 4$",
+            "B": "$8 : 5$",
+            "C": "$5 : 8$",
+            "D": "$4 : 9$"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 19,
+        "text": "Which of the following are the possible lengths of the sides of a right-angled triangle?\nI. $11\\text{ cm}$, $13\\text{ cm}$, $17\\text{ cm}$\nII. $2.4\\text{ cm}$, $7\\text{ cm}$, $7.4\\text{ cm}$\nIII. $\\sqrt{5}\\text{ cm}$, $2\\text{ cm}$, $3\\text{ cm}$",
+        "choices": {
+            "A": "I and II only",
+            "B": "I and III only",
+            "C": "II and III only",
+            "D": "I, II and III"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 20,
+        "text": "Two ships $A$ and $B$ leave port $P$ at noon. Ship $A$ sails due south of $P$ at a constant speed of $15 \\text{ km/h}$. Ship $B$ sails due west of $P$ at a constant speed of $20 \\text{ km/h}$. Find the distance between ships $A$ and $B$ at 3:30 pm that day.",
+        "choices": {
+            "A": "$25 \\text{ km}$",
+            "B": "$55 \\text{ km}$",
+            "C": "$87.5 \\text{ km}$",
+            "D": "$122.5 \\text{ km}$"
+        },
+        "answer": "C",
+        "graph": null
+    },
+    {
+        "id": 21,
+        "text": "Which of the following numbers is an irrational number?",
+        "choices": {
+            "A": "$2.5$",
+            "B": "$1 \\frac{3}{7}$",
+            "C": "$3.1\\dot{4}1\\dot{5}$",
+            "D": "$\\sqrt{10}$"
+        },
+        "answer": "D",
+        "graph": null
+    },
+    {
+        "id": 22,
+        "text": "If $\\sqrt{x} = 8$, then $\\sqrt{x - 15} =$",
+        "choices": {
+            "A": "$\\sqrt{7}$",
+            "B": "$7$",
+            "C": "$15$",
+            "D": "$49$"
+        },
+        "answer": "B",
+        "graph": null
+    },
+    {
+        "id": 23,
+        "text": "If $x > 0$, then $\\sqrt{36x} + \\sqrt{4x} =$",
+        "choices": {
+            "A": "$8\\sqrt{x}$",
+            "B": "$\\sqrt{40x}$",
+            "C": "$10\\sqrt{x}$",
+            "D": "$20\\sqrt{x}$"
+        },
+        "answer": "A",
+        "graph": null
+    },
+    {
+        "id": 24,
+        "text": "If $a, b > 0$, expand $(\\sqrt{27a} - \\sqrt{48b})^2$.",
+        "choices": {
+            "A": "$27a + 48b + 24\\sqrt{ab}$",
+            "B": "$27a + 48b - 72\\sqrt{ab}$",
+            "C": "$27a + 48b - 24\\sqrt{ab}$",
+            "D": "$27a + 48b + 72\\sqrt{ab}$"
+        },
+        "answer": "B",
+        "graph": null
+    },
+    {
+        "id": 25,
+        "text": "If $a > 0$, which of the following cannot be true?\nI. $\\sqrt{3a} + \\sqrt{6a} = 9\\sqrt{a}$\nII. $\\sqrt{\\frac{9a}{4}} = \\frac{3\\sqrt{a}}{2}$\nIII. $\\sqrt{12a} \\times \\sqrt{3a} = 6a$",
+        "choices": {
+            "A": "I only",
+            "B": "III only",
+            "C": "I and III only",
+            "D": "II and III only"
+        },
+        "answer": "A",
+        "graph": null
+    },
+    {
+        "id": 26,
+        "text": "In the figure, $AOB$ is a sector with centre $O$. $AO = 8 \\text{ cm}$ and $AO \\perp OB$. Find the perimeter of the shaded region, correct to 2 decimal places.",
+        "choices": {
+            "A": "$12.57 \\text{ cm}$",
+            "B": "$18.27 \\text{ cm}$",
+            "C": "$23.88 \\text{ cm}$",
+            "D": "$28.57 \\text{ cm}$"
+        },
+        "answer": "C",
+        "graph": {
+            "type": "geometry",
+            "elements": [
+                {
+                    "type": "sector",
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "radius": 100,
+                    "start_angle": 0,
+                    "end_angle": 90,
+                    "fill": "none",
+                    "stroke": "black"
+                },
+                {
+                    "type": "polygon",
+                    "points": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            100,
+                            0
+                        ],
+                        [
+                            0,
+                            100
+                        ]
+                    ],
+                    "fill": "none",
+                    "stroke": "black"
+                },
+                {
+                    "type": "right_angle",
+                    "vertex": [
+                        0,
+                        0
+                    ],
+                    "point1": [
+                        100,
+                        0
+                    ],
+                    "point2": [
+                        0,
+                        100
+                    ],
+                    "size": 10
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        -10,
+                        -10
+                    ],
+                    "text": "$O$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        0,
+                        115
+                    ],
+                    "text": "$A$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        115,
+                        0
+                    ],
+                    "text": "$B$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        -25,
+                        50
+                    ],
+                    "text": "$8 \\text{ cm}$"
+                },
+                {
+                    "type": "shaded_region",
+                    "shape": "custom",
+                    "paths": [
+                        "M 100 0 A 100 100 0 0 0 0 100 L 100 0 Z"
+                    ],
+                    "fill": "pink",
+                    "stroke": "none"
+                }
+            ]
+        }
+    },
+    {
+        "id": 27,
+        "text": "Consider a solid right circular cylinder of base diameter $1 \\text{ cm}$ and height $6 \\text{ cm}$. Find the total surface area of the cylinder in terms of $\\pi$.",
+        "choices": {
+            "A": "$6\\pi \\text{ cm}^2$",
+            "B": "$6.5\\pi \\text{ cm}^2$",
+            "C": "$12\\pi \\text{ cm}^2$",
+            "D": "$14\\pi \\text{ cm}^2$"
+        },
+        "answer": "B",
+        "graph": null
+    },
+    {
+        "id": 28,
+        "text": "In $\\triangle ABC$, $AB : BC : AC = 7 : 24 : 25$. Find $\\cos A : \\tan C$.",
+        "choices": {
+            "A": "$7 : 25$",
+            "B": "$25 : 7$",
+            "C": "$24 : 25$",
+            "D": "$25 : 24$"
+        },
+        "answer": "C",
+        "graph": null
+    },
+    {
+        "id": 29,
+        "text": "In the figure, $D$ and $E$ are points on $BC$. $\\angle ADE = \\angle AED = 70^\\circ$ and $\\angle BAE = 60^\\circ$, $AD = AE$, $BE = DC$. Which of the following is/are true?\nI. $CE = BD$\nII. $\\angle CAD = 70^\\circ$\nIII. $\\triangle ACD \\cong \\triangle ABE$",
+        "choices": {
+            "A": "I and II only",
+            "B": "I and III only",
+            "C": "II and III only",
+            "D": "I, II and III only"
+        },
+        "answer": "B",
+        "graph": {
+            "type": "geometry",
+            "elements": [
+                {
+                    "type": "polygon",
+                    "points": [
+                        [
+                            0,
+                            100
+                        ],
+                        [
+                            150,
+                            100
+                        ],
+                        [
+                            75,
+                            0
+                        ]
+                    ],
+                    "fill": "none",
+                    "stroke": "black"
+                },
+                {
+                    "type": "line",
+                    "point1": [
+                        75,
+                        0
+                    ],
+                    "point2": [
+                        50,
+                        100
+                    ]
+                },
+                {
+                    "type": "line",
+                    "point1": [
+                        75,
+                        0
+                    ],
+                    "point2": [
+                        100,
+                        100
+                    ]
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        75,
+                        -15
+                    ],
+                    "text": "$A$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        -15,
+                        115
+                    ],
+                    "text": "$B$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        165,
+                        115
+                    ],
+                    "text": "$C$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        50,
+                        115
+                    ],
+                    "text": "$D$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        100,
+                        115
+                    ],
+                    "text": "$E$"
+                }
+            ]
+        }
+    },
+    {
+        "id": 30,
+        "text": "In the figure, $OA \\perp AB$. $OAC$ is a sector with center $O$. Find the area of the shaded region, correct to 3 significant figures.",
+        "choices": {
+            "A": "$1.10 \\text{ cm}^2$",
+            "B": "$3.29 \\text{ cm}^2$",
+            "C": "$4.88 \\text{ cm}^2$",
+            "D": "$10.6 \\text{ cm}^2$"
+        },
+        "answer": "D",
+        "graph": {
+            "type": "geometry",
+            "elements": [
+                {
+                    "type": "polygon",
+                    "points": [
+                        [
+                            0,
+                            100
+                        ],
+                        [
+                            150,
+                            100
+                        ],
+                        [
+                            150,
+                            20
+                        ]
+                    ],
+                    "fill": "none",
+                    "stroke": "black"
+                },
+                {
+                    "type": "right_angle",
+                    "vertex": [
+                        150,
+                        100
+                    ],
+                    "point1": [
+                        0,
+                        100
+                    ],
+                    "point2": [
+                        150,
+                        20
+                    ],
+                    "size": 10
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        -15,
+                        115
+                    ],
+                    "text": "$O$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        165,
+                        115
+                    ],
+                    "text": "$A$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        165,
+                        5
+                    ],
+                    "text": "$B$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        115,
+                        35
+                    ],
+                    "text": "$C$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        165,
+                        60
+                    ],
+                    "text": "$8 \\text{ cm}$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        75,
+                        45
+                    ],
+                    "text": "$17 \\text{ cm}$"
+                },
+                {
+                    "type": "shaded_region",
+                    "shape": "custom",
+                    "paths": [
+                        "M 150 100 L 150 20 L 118 38 A 150 150 0 0 0 150 100 Z"
+                    ],
+                    "fill": "gray",
+                    "stroke": "none"
+                },
+                {
+                    "type": "arc",
+                    "center": [
+                        0,
+                        100
+                    ],
+                    "radius": 150,
+                    "start_angle": 0,
+                    "end_angle": -28,
+                    "fill": "none",
+                    "stroke": "black"
+                }
+            ]
+        }
+    },
+    {
+        "id": 31,
+        "text": "If $\\cos \\theta = k$ and $\\theta$ is an acute angle, then $\\tan \\theta =$ ",
+        "choices": {
+            "A": "$\\frac{1}{\\sqrt{1-k^2}}$.",
+            "B": "$\\sqrt{1-k^2}$.",
+            "C": "$\\frac{k}{\\sqrt{1-k^2}}$.",
+            "D": "$\\frac{\\sqrt{1-k^2}}{k}$."
+        },
+        "answer": "D",
+        "graph": null
+    },
+    {
+        "id": 32,
+        "text": "If $\\frac{1}{x} = \\frac{2}{y} = \\frac{3}{z}$, then $x : y : z =$",
+        "choices": {
+            "A": "$3 : 2 : 1$.",
+            "B": "$1 : 2 : 3$.",
+            "C": "$12 : 6 : 1$.",
+            "D": "$1 : 6 : 12$."
+        },
+        "answer": "B",
+        "graph": null
+    },
+    {
+        "id": 33,
+        "text": "If $x = 1 - \\frac{1}{1-y}$, then $y =$",
+        "choices": {
+            "A": "$1 - \\frac{1}{1-x}$",
+            "B": "$1 - \\frac{1}{1+x}$",
+            "C": "$1 + \\frac{1}{1-x}$",
+            "D": "$1 + \\frac{1}{1+x}$"
+        },
+        "answer": "A",
+        "graph": null
+    },
+    {
+        "id": 34,
+        "text": "In the figure, $PQRS$ is a square. $PUT$ and $QRT$ are straight lines.\n\nIf $RT = 2.1 \\text{ cm}$ and $TU = 2.9 \\text{ cm}$, then $PU =$",
+        "choices": {
+            "A": "$38 \\text{ cm}$.",
+            "B": "$40 \\text{ cm}$.",
+            "C": "$42 \\text{ cm}$.",
+            "D": "$58 \\text{ cm}$."
+        },
+        "answer": "D",
+        "graph": {
+            "elements": [
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            0,
+                            42
+                        ],
+                        [
+                            0,
+                            0
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            42,
+                            0
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            42,
+                            0
+                        ],
+                        [
+                            42,
+                            42
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            42,
+                            42
+                        ],
+                        [
+                            0,
+                            42
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            42,
+                            0
+                        ],
+                        [
+                            44.1,
+                            0
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            0,
+                            42
+                        ],
+                        [
+                            44.1,
+                            0
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "label",
+                    "text": "P",
+                    "point": [
+                        0,
+                        42
+                    ],
+                    "labelPosition": "top-left"
+                },
+                {
+                    "type": "label",
+                    "text": "Q",
+                    "point": [
+                        0,
+                        0
+                    ],
+                    "labelPosition": "bottom-left"
+                },
+                {
+                    "type": "label",
+                    "text": "R",
+                    "point": [
+                        42,
+                        0
+                    ],
+                    "labelPosition": "bottom-left"
+                },
+                {
+                    "type": "label",
+                    "text": "S",
+                    "point": [
+                        42,
+                        42
+                    ],
+                    "labelPosition": "top-right"
+                },
+                {
+                    "type": "label",
+                    "text": "T",
+                    "point": [
+                        44.1,
+                        0
+                    ],
+                    "labelPosition": "right"
+                },
+                {
+                    "type": "label",
+                    "text": "U",
+                    "point": [
+                        42,
+                        2
+                    ],
+                    "labelPosition": "top-right"
+                },
+                {
+                    "type": "right_angle",
+                    "point": [
+                        0,
+                        0
+                    ],
+                    "line1": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            42
+                        ]
+                    ],
+                    "line2": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            42,
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "type": "right_angle",
+                    "point": [
+                        42,
+                        0
+                    ],
+                    "line1": [
+                        [
+                            42,
+                            0
+                        ],
+                        [
+                            0,
+                            0
+                        ]
+                    ],
+                    "line2": [
+                        [
+                            42,
+                            0
+                        ],
+                        [
+                            42,
+                            42
+                        ]
+                    ]
+                },
+                {
+                    "type": "label",
+                    "text": "2.1",
+                    "point": [
+                        43.05,
+                        0.0
+                    ],
+                    "labelPosition": "bottom"
+                },
+                {
+                    "type": "label",
+                    "text": "2.9",
+                    "point": [
+                        43.05,
+                        1.0
+                    ],
+                    "labelPosition": "top-right"
+                }
+            ]
+        }
+    },
+    {
+        "id": 35,
+        "text": "In the figure, $OPQ$ and $ORS$ are sectors with centre $O$, where $OP = 24 \\text{ cm}$ and $OR = 42 \\text{ cm}$. The area of the shaded region $PQSR$ is $264\\pi \\text{ cm}^2$. Which of the following is/are true?\n\nI. The angle of sector $OPQ$ is $80^\\circ$.\nII. The area of sector $OPQ$ is $72\\pi \\text{ cm}^2$.\nIII. The perimeter of sector $ORS$ is $\\frac{56}{3}\\pi \\text{ cm}$.",
+        "choices": {
+            "A": "I only",
+            "B": "II only",
+            "C": "I and III only",
+            "D": "II and III only"
+        },
+        "answer": "A",
+        "graph": {
+            "elements": [
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            21,
+                            42
+                        ],
+                        [
+                            0,
+                            0
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            21,
+                            42
+                        ],
+                        [
+                            42,
+                            0
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "label",
+                    "text": "O",
+                    "point": [
+                        21,
+                        42
+                    ],
+                    "labelPosition": "bottom"
+                },
+                {
+                    "type": "label",
+                    "text": "P",
+                    "point": [
+                        6,
+                        18
+                    ],
+                    "labelPosition": "bottom-right"
+                },
+                {
+                    "type": "label",
+                    "text": "Q",
+                    "point": [
+                        36,
+                        18
+                    ],
+                    "labelPosition": "bottom-left"
+                },
+                {
+                    "type": "label",
+                    "text": "R",
+                    "point": [
+                        0,
+                        0
+                    ],
+                    "labelPosition": "top-left"
+                },
+                {
+                    "type": "label",
+                    "text": "S",
+                    "point": [
+                        42,
+                        0
+                    ],
+                    "labelPosition": "top-right"
+                }
+            ]
+        }
+    },
+    {
+        "id": 36,
+        "text": "In the figure, $PQRS$ is a trapezium with $\\angle PQR = \\angle QRS = 90^\\circ$. $T$ and $U$ are points on $QR$ such that $QT = TU = UR$. Which of the following must be true?\n\nI. $RT \\cos a = QU \\cos b$\nII. $PU \\sin a = ST \\sin b$\nIII. $RS \\tan a = PQ \\tan b$",
+        "choices": {
+            "A": "I only",
+            "B": "II only",
+            "C": "I and III only",
+            "D": "II and III only"
+        },
+        "answer": "B",
+        "graph": {
+            "elements": [
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            0,
+                            30
+                        ],
+                        [
+                            0,
+                            0
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            45,
+                            0
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            45,
+                            0
+                        ],
+                        [
+                            45,
+                            20
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            45,
+                            20
+                        ],
+                        [
+                            0,
+                            30
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            0,
+                            30
+                        ],
+                        [
+                            30,
+                            0
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            45,
+                            20
+                        ],
+                        [
+                            15,
+                            0
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "label",
+                    "text": "P",
+                    "point": [
+                        0,
+                        30
+                    ],
+                    "labelPosition": "top-left"
+                },
+                {
+                    "type": "label",
+                    "text": "Q",
+                    "point": [
+                        0,
+                        0
+                    ],
+                    "labelPosition": "bottom-left"
+                },
+                {
+                    "type": "label",
+                    "text": "T",
+                    "point": [
+                        15,
+                        0
+                    ],
+                    "labelPosition": "bottom"
+                },
+                {
+                    "type": "label",
+                    "text": "U",
+                    "point": [
+                        30,
+                        0
+                    ],
+                    "labelPosition": "bottom"
+                },
+                {
+                    "type": "label",
+                    "text": "R",
+                    "point": [
+                        45,
+                        0
+                    ],
+                    "labelPosition": "bottom-right"
+                },
+                {
+                    "type": "label",
+                    "text": "S",
+                    "point": [
+                        45,
+                        20
+                    ],
+                    "labelPosition": "top-right"
+                },
+                {
+                    "type": "right_angle",
+                    "point": [
+                        0,
+                        0
+                    ],
+                    "line1": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            30
+                        ]
+                    ],
+                    "line2": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            45,
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "type": "right_angle",
+                    "point": [
+                        45,
+                        0
+                    ],
+                    "line1": [
+                        [
+                            45,
+                            0
+                        ],
+                        [
+                            0,
+                            0
+                        ]
+                    ],
+                    "line2": [
+                        [
+                            45,
+                            0
+                        ],
+                        [
+                            45,
+                            20
+                        ]
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": 37,
+        "text": "In the figure, $AD =$",
+        "choices": {
+            "A": "$AB \\cos \\alpha + BC \\cos \\beta$.",
+            "B": "$AB \\cos \\alpha + BC \\sin \\beta$.",
+            "C": "$AB \\sin \\alpha + BC \\cos \\beta$.",
+            "D": "$AB \\sin \\alpha + BC \\sin \\beta$."
+        },
+        "answer": "B",
+        "graph": {
+            "elements": [
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            15,
+                            25
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            15,
+                            25
+                        ],
+                        [
+                            45,
+                            40
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            45,
+                            40
+                        ],
+                        [
+                            45,
+                            0
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            45,
+                            0
+                        ],
+                        [
+                            0,
+                            0
+                        ]
+                    ],
+                    "style": "solid"
+                },
+                {
+                    "type": "label",
+                    "text": "A",
+                    "point": [
+                        0,
+                        0
+                    ],
+                    "labelPosition": "bottom-left"
+                },
+                {
+                    "type": "label",
+                    "text": "B",
+                    "point": [
+                        15,
+                        25
+                    ],
+                    "labelPosition": "top-left"
+                },
+                {
+                    "type": "label",
+                    "text": "C",
+                    "point": [
+                        45,
+                        40
+                    ],
+                    "labelPosition": "top-right"
+                },
+                {
+                    "type": "label",
+                    "text": "D",
+                    "point": [
+                        45,
+                        0
+                    ],
+                    "labelPosition": "bottom-right"
+                },
+                {
+                    "type": "right_angle",
+                    "point": [
+                        45,
+                        0
+                    ],
+                    "line1": [
+                        [
+                            45,
+                            0
+                        ],
+                        [
+                            0,
+                            0
+                        ]
+                    ],
+                    "line2": [
+                        [
+                            45,
+                            0
+                        ],
+                        [
+                            45,
+                            40
+                        ]
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": 38,
+        "text": "Consider two cylinders $P$ and $Q$ having the same height. If the ratio of the volume of $P$ to the volume of $Q$ is $1 : 4$, find base radius of cylinder $P$ : base radius of cylinder $Q$.",
+        "choices": {
+            "A": "$2 : 1$",
+            "B": "$1 : 2$",
+            "C": "$16 : 1$",
+            "D": "$1 : 16$"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 39,
+        "text": "The figure shown below is formed by cutting away a semi-circle from two semi-circles of different sizes. Find the area of the figure, correct to 2 decimal places.",
+        "choices": {
+            "A": "$6.28\\text{ m}^2$",
+            "B": "$7.85\\text{ m}^2$",
+            "C": "$9.42\\text{ m}^2$",
+            "D": "$12.57\\text{ m}^2$"
+        },
+        "answer": "A",
+        "graph": {
+            "elements": [
+                {
+                    "type": "path",
+                    "d": "M -2 0 A 2 2 0 0 1 2 0 A 1 1 0 0 0 0 0 L -2 0 Z",
+                    "fill": "#ffe599",
+                    "stroke": "none"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            -2,
+                            0
+                        ],
+                        [
+                            2,
+                            0
+                        ]
+                    ],
+                    "style": "dashed"
+                },
+                {
+                    "type": "arc",
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "radius": 2,
+                    "startAngle": 0,
+                    "endAngle": 180
+                },
+                {
+                    "type": "arc",
+                    "center": [
+                        1,
+                        0
+                    ],
+                    "radius": 1,
+                    "startAngle": 0,
+                    "endAngle": 180,
+                    "style": "dashed"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            -2,
+                            -0.2
+                        ],
+                        [
+                            -2,
+                            -0.6
+                        ]
+                    ]
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            0,
+                            -0.2
+                        ],
+                        [
+                            0,
+                            -0.6
+                        ]
+                    ]
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            2,
+                            -0.2
+                        ],
+                        [
+                            2,
+                            -0.6
+                        ]
+                    ]
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            -2,
+                            -0.4
+                        ],
+                        [
+                            0,
+                            -0.4
+                        ]
+                    ],
+                    "arrows": "both"
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            0,
+                            -0.4
+                        ],
+                        [
+                            2,
+                            -0.4
+                        ]
+                    ],
+                    "arrows": "both"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        -1,
+                        -0.8
+                    ],
+                    "text": "$2\\text{ m}$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        1,
+                        -0.8
+                    ],
+                    "text": "$2\\text{ m}$"
+                }
+            ]
+        }
+    },
+    {
+        "id": 40,
+        "text": "In the figure, $ABCD$ is a rectangle. If $E$ is a point lying on $CD$ such that $\\angle CBE = 25^\\circ$, find $\\angle DAE$ correct to 2 decimal places.",
+        "choices": {
+            "A": "$42.87^\\circ$",
+            "B": "$44.05^\\circ$",
+            "C": "$45.95^\\circ$",
+            "D": "$47.13^\\circ$"
+        },
+        "answer": "C",
+        "graph": {
+            "elements": [
+                {
+                    "type": "polygon",
+                    "points": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            0
+                        ],
+                        [
+                            4,
+                            6
+                        ]
+                    ]
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            4,
+                            1.865
+                        ]
+                    ]
+                },
+                {
+                    "type": "line",
+                    "points": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            1.865
+                        ]
+                    ]
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        -0.5,
+                        6
+                    ],
+                    "text": "$A$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        -0.5,
+                        0
+                    ],
+                    "text": "$B$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        4.5,
+                        0
+                    ],
+                    "text": "$C$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        4.5,
+                        6
+                    ],
+                    "text": "$D$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        4.5,
+                        1.865
+                    ],
+                    "text": "$E$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        -0.8,
+                        3
+                    ],
+                    "text": "$6\\text{ cm}$"
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        2,
+                        -0.8
+                    ],
+                    "text": "$4\\text{ cm}$"
+                },
+                {
+                    "type": "arc",
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "radius": 1.2,
+                    "startAngle": 0,
+                    "endAngle": 25
+                },
+                {
+                    "type": "label",
+                    "point": [
+                        1.6,
+                        0.4
+                    ],
+                    "text": "$25^\\circ$"
+                },
+                {
+                    "type": "arc",
+                    "center": [
+                        0,
+                        6
+                    ],
+                    "radius": 1.2,
+                    "startAngle": -46,
+                    "endAngle": 0
+                },
+                {
+                    "type": "right_angle",
+                    "point": [
+                        0,
+                        0
+                    ],
+                    "line1": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "line2": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            6
+                        ]
+                    ]
+                },
+                {
+                    "type": "right_angle",
+                    "point": [
+                        4,
+                        0
+                    ],
+                    "line1": [
+                        [
+                            4,
+                            0
+                        ],
+                        [
+                            0,
+                            0
+                        ]
+                    ],
+                    "line2": [
+                        [
+                            4,
+                            0
+                        ],
+                        [
+                            4,
+                            6
+                        ]
+                    ]
+                },
+                {
+                    "type": "right_angle",
+                    "point": [
+                        4,
+                        6
+                    ],
+                    "line1": [
+                        [
+                            4,
+                            6
+                        ],
+                        [
+                            0,
+                            6
+                        ]
+                    ],
+                    "line2": [
+                        [
+                            4,
+                            6
+                        ],
+                        [
+                            4,
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "type": "right_angle",
+                    "point": [
+                        0,
+                        6
+                    ],
+                    "line1": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "line2": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0,
+                            0
+                        ]
+                    ]
+                }
+            ]
+        }
     }
-  }
 ]
