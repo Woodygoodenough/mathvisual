@@ -1605,6 +1605,28 @@
                         0
                     ],
                     "labelPosition": "top-right"
+                },
+                {
+                    "type": "sector",
+                    "center": [
+                        21,
+                        42
+                    ],
+                    "radius": 24,
+                    "startAngle": 270,
+                    "endAngle": 350,
+                    "fill": "#d1d5db"
+                },
+                {
+                    "type": "sector",
+                    "center": [
+                        21,
+                        42
+                    ],
+                    "radius": 42,
+                    "startAngle": 270,
+                    "endAngle": 350,
+                    "fill": "#9ca3af"
                 }
             ]
         }
