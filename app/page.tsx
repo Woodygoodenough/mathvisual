@@ -26,7 +26,7 @@ export default function Page() {
           <div key={question.id} className="bg-white p-8 rounded-xl shadow-md w-full mb-8">
             <div className="flex gap-4 mb-6">
               <span className="font-bold text-xl">{question.id}.</span>
-              <p className="text-lg leading-relaxed">
+              <p className="text-lg leading-relaxed whitespace-pre-wrap">
                 {renderTextWithMath(question.text)}
               </p>
             </div>
