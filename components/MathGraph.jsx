@@ -169,7 +169,7 @@ export default function MathGraph({ data }) {
           }
       } else if (el.type === 'tick') {
            if (el.p1 && el.p2) {
-               const seg = board.create('segment', [el.p1, el.p2], {visible: false});
+
                // Create a tick manually using a small segment if count is 2
                const midX = (el.p1[0] + el.p2[0]) / 2;
                const midY = (el.p1[1] + el.p2[1]) / 2;
