@@ -66,3 +66,33 @@ Error: ENOENT: no such file or directory, scandir '/app/frontend/app'
   path: '/app/frontend/app'
 }
  ⨯ Module not found: Error: Can't resolve 'next-flight-client-entry-loader' in '/app/frontend'
+ ⨯ Module not found: Error: Can't resolve 'next-flight-client-entry-loader' in '/app/frontend'
+Error: ENOENT: no such file or directory, scandir '/app/frontend/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /app/frontend/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/app/frontend/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /app/frontend/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/app/frontend/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /app/frontend/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/app/frontend/app'
+}
+Error: ENOENT: no such file or directory, scandir '/app/frontend/app'
+    at async Object.readdir (node:internal/fs/promises:952:18)
+    at async /app/frontend/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/app/frontend/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /app/frontend/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/app/frontend/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /app/frontend/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/app/frontend/app'
+}
+[?25h
