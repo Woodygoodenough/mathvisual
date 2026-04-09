@@ -917,7 +917,7 @@
     },
     {
         "id": 26,
-        "text": "In the figure, points $A$, $O$, and $B$ form a sector of a circle with center $O$. The radius $AO = 8 \\text{ cm}$ and $\\angle AOB = 90^\\circ$. Find the perimeter of the region bounded by the line segment $AB$ and the arc $AB$, correct to 2 decimal places.",
+        "text": "In the figure, points $A$, $O$, and $B$ form a sector of a circle with center $O$. The radius $AO = 8 \\text{ cm}$ and $AO \\perp OB$. Let $C$ be the midpoint of the arc $AB$ (not shown) such that a segment connects $A$ to $B$. Find the perimeter of the region bounded by the line segment $AB$ and the arc $AB$, correct to 2 decimal places.",
         "choices": {
             "A": "$12.57 \\text{ cm}$",
             "B": "$18.27 \\text{ cm}$",
@@ -929,20 +929,12 @@
             "type": "geometry",
             "elements": [
                 {
-                    "type": "sector",
-                    "center": [
-                        0,
-                        0
-                    ],
-                    "radius": 100,
-                    "startAngle": 0,
-                    "endAngle": 90,
-                    "fill": "none",
-                    "stroke": "black"
-                },
-                {
-                    "type": "line",
+                    "type": "polygon",
                     "points": [
+                        [
+                            0,
+                            0
+                        ],
                         [
                             100,
                             0
@@ -951,7 +943,9 @@
                             0,
                             100
                         ]
-                    ]
+                    ],
+                    "fill": "none",
+                    "stroke": "black"
                 },
                 {
                     "type": "label",
@@ -1103,7 +1097,7 @@
     },
     {
         "id": 30,
-        "text": "In the figure, $\\angle OAB = 90^\\circ$ with $AB = 8 \\text{ cm}$. $OAC$ is a sector of a circle with center $O$. A line segment is drawn from $O$ to $B$, intersecting the arc $AC$ at point $C$. The perpendicular distance from $C$ to the line segment $OA$ is $17 \\text{ cm}$. Find the area of the region bounded by the segment $AC$, segment $CB$, and the arc $AC$, correct to 3 significant figures.",
+        "text": "In the figure, $OA \\perp AB$ with $AB = 8 \\text{ cm}$. $OAC$ is a sector of a circle with center $O$. A line segment is drawn from $O$ to $B$, intersecting the arc $AC$ at point $C$. The distance from $C$ to the line segment $OA$ is $17 \\text{ cm}$. Find the area of the region bounded by the segment $AC$, segment $CB$, and the arc $AC$, correct to 3 significant figures.",
         "choices": {
             "A": "$1.10 \\text{ cm}^2$",
             "B": "$3.29 \\text{ cm}^2$",
@@ -1441,28 +1435,6 @@
                         0
                     ],
                     "labelPosition": "top-right"
-                },
-                {
-                    "type": "sector",
-                    "center": [
-                        21,
-                        42
-                    ],
-                    "radius": 24,
-                    "startAngle": 270,
-                    "endAngle": 350,
-                    "fill": "none"
-                },
-                {
-                    "type": "sector",
-                    "center": [
-                        21,
-                        42
-                    ],
-                    "radius": 42,
-                    "startAngle": 270,
-                    "endAngle": 350,
-                    "fill": "none"
                 }
             ]
         }
